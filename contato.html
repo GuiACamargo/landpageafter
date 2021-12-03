@@ -1,47 +1,31 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="UTF-8">
-        <title>Contato</title>
-	    <link rel="stylesheet" href="stylecontato.css">
-	        
-    </head>
-    
-    <body class="setor">
-       <section>
-               <div>
-                    <form>  
-                            <h3>Entrar em Contato</h3>
-                        
-                            <input type="email" id="email" class="input-padrao" required placeholder="nomedoemail@dominio.com">
-                
-                            <input type="password" id="password" class="input-padrao" required  placeholder="Senha">
-                                
-                            <input type="submit" value="Enviar formulário" class="enviar">
-                    </form>     
-                
-                    <script>
-                        var email = document.getElementsById('email');
-                        var password = document.getElementsById('password');
-
-                        email.addEventListener('focus',()=>{
-                            email.style.borderColor= "#452c8a";
-                        });
-                        email.addEventListener('blur',()=>{
-                            email.style.borderColor= "#A255E6";
-                        });
-
-                        password.addEventListener('focus',()=>{
-                            password.style.borderColor= "#452c8a";
-                        });
-                    password.addEventListener('blur',()=>{
-                            password.style.borderColor= "#A255E6";
-                        });
-                    </script>	
-                </div>  
-        </section> 
-        <section>
-                     <div>texto aqui</div>
-       </section>
-    </body>
-</html>
+   <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>Contato</title>
+            <link rel="stylesheet" href="stylecontato.css">
+                    
+        </head>
+            
+        <body class="body">
+            <div>
+                <section class="form-section">
+                    <div id="entrar">
+                        <h1>Entrar</h1>
+                    </div>
+                    <div class="formulario">
+                        <form>
+                            <div class="input-padrao">
+                                <input type="text" id="login-email" placeholder="email">
+                                <input type="password" id="senha" placeholder="Digite sua senha">
+                            </div>
+                                <button type="submit" class="enviar">Entrar</button>
+                        </form>
+                    </div>
+               </section>
+              
+            </div>       
+                	
+            
+      </body>
+   </html>
