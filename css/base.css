@@ -1,38 +1,109 @@
 .container{
     width: 900px; 
     margin-left: auto;
-    margin-right: auto; 
+    margin-right:auto;
     
 }
 
-.field{
-    margin-bottom: 16px;
-}
+* {
+    margin: 0;
+    padding:0;
+  }
+  
+  body {
+    font-family: sans-serif;
+    background:url('../img/texture.jpg');
+  }
 
-.field label{
-    display: block;
-    font-size: 20px;
-    margin-bottom:10px;
-    font-weight:bold;
-}
+  form{
+      width:420px;
+      height:420px;
+      background-color: violet;
+      padding:10px;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 16px;
+  }
+  legend{
+      text-align: center;
+  }
+  label{
+      display:block;
+      margin-top: 10px;
+  }
 
-.field .field-input{
-    display:block;
-    width:100%;
-    font-size: 20px;
-    padding:5px;
-    border-radius:5px;
-    box-shadow:1px 1px 10px #4b0082;
-}
-
+  input[type=text],input[type=email],input[type=tel]{
+      padding:10px;
+      width:400px;
+      border:1px solid #4E4EF2;
+      outline:0;
+      
+  }
+  
+  .form-dados {
+    margin-bottom:0;
+    padding: 30px;
+   
+  }
+  
+  .dados {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+  
+  .dados label {
+    padding-left: 10px;
+    cursor: pointer;
+  }
+  
+  .radio{
+    cursor: pointer;
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    border: 3px solid #800080;
+    border-radius: 50%;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    outline: none;
+  }
+  
+  
+  
+  .radio:before{
+    content: '';
+    width: 15px;
+    height: 15px;
+    background: #800080;
+    border-radius: 50%;
+    opacity: 0;
+    transition: all 600ms ease-in-out;
+    position: absolute;
+  }
+  
+  
+  
+  .radio:checked:before{
+    opacity: 1;
+  }
+  
+  .radio:focus{
+    box-shadow: 0 0 5px #800080;
+  }
+  
 .button{
 
     display:inline-block;
     color:white;
     text-decoration:none;
     font-size: 18px;
-    padding: 25px 50px;
-    background-color:#4b0082;
+    padding: 10px;
+    background-color:#310131;
+    width:50%;
 }
 
 .button-place{
