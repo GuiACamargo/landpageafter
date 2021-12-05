@@ -1,0 +1,54 @@
+.panel-speakers{
+    padding-top:40px;
+    background-image: url(../img/fractals.jpg);
+        
+}
+
+.panel-speakers .about-speakers{
+    text-align:center;
+    
+}
+.panel-speakers .about-speakers .title{
+    color:#4E4EF2;
+    font-size:40px;
+    margin-bottom: 16px;
+    text-transform:uppercase ;
+}
+
+
+.panel-speakers .about-speakers .subtitle{
+    color:#4E4EF2;
+    font-size:20px;
+    margin-bottom: 16px;
+    text-transform:uppercase;
+    
+}
+
+.panel-speakers .speaker{
+    text-align: center;
+        
+}
+.panel-speakers .speaker{
+    background: #F574E5;
+    display:inline-block;
+    margin: 0 16px 32px 0;
+    padding:20px;
+    border-radius:10px;
+    width:220px;
+    vertical-align: top;
+}
+
+.panel-speakers .speaker-image{
+    border-radius: 50%;
+}
+.panel-speakers .speaker-name{
+    margin-top:10px;
+}
+.panel-speakers .speaker-bio{
+    font-weight:bold;
+    margin-top:16px;
+}
+.panel-speakers .speaker-speach{
+    margin-top:16px;
+    
+}

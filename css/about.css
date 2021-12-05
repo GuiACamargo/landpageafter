@@ -1,0 +1,38 @@
+.panel-about{
+    margin-top: 0px;
+    text-align: center;
+    background-image: url("../img/texture.jpg");
+    background-size: cover;
+    width: 100%;
+    height:300px;
+}
+.panel-about .title{
+    font-size: 40px;
+    margin-bottom: 16px;
+    text-transform:uppercase ;
+    color:rgb(255, 255, 255);
+    margin: 0;
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    font-weight: bold;
+}
+
+.panel-about .subtitle{
+    font-size: 20px;
+    margin-bottom: 16px;
+    text-transform:uppercase ;
+    color:rgb(255, 255, 255);
+    margin: 0;
+    position: absolute;
+    top: 18%;
+    left: 50%;
+      
+}
+
+.panel-about .about-description{
+    font-size:18px;
+    line-height:35px;
+}
