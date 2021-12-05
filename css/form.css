@@ -1,6 +1,11 @@
 .panel-form{
-
-    margin-top: 32px;
+    margin-top: 0;
+    margin: 0;
+    position: absolute;
+    top: 130%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
 }
 .panel-form .title{
         font-size: 32px;

@@ -6,10 +6,10 @@
     <title>Contato</title>
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/base.css">
-    <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/about.css">
-    <link rel="stylesheet" href="css/speaker.css">
+    <link rel="stylesheet" href="css/produto.css">
     <link rel="stylesheet" href="css/form.css">
+   
 </head>
 <body>
        
@@ -20,39 +20,39 @@
             </div>
             
         </section>
-        <section id="panel-speakers" class="panel panel-speakers">
+        <section id="panel-produtos" class="panel panel-produtos">
             <div class="container">
-                <div class="about-speakers">
+                <div class="about-produtos">
                     <h2 class="title">CURSOS FERRAMENTAS ADOBE</h2>
-                    <h3 class="subtitle">Referências no mercado</h3>
                 </div> 
                 
-                <ul class="speakers">
-                    <li class="speaker">
-                        <figure class="speaker-portrait">
-                            <img class="speaker-image"src="img/after.png" alt="foto do palestrante">
-                            <figcaption class="speaker-name">Nome completo</figcaption>
-                            <p class="speaker-bio">desenvolvedor de software</p>
+                <ul class="produtos">
+                    <li class="produto">
+                        <figure class="produto-portrait">
+                            <img class="produto-image"src="img/after.png" alt="foto do produto">
+                            <figcaption class="produto-name">After Effects</figcaption>
+                            <p class="produto-bio">Criação de gráficos vetoriais</p>
                         </figure>
-                        <p class="speaker-speach"> nome da palestra</p>
+                        <p class="produto-speach"> R$ 499,00</p>
                     </li>
 
-                    <li class="speaker">
-                        <figure class="speaker-portrait">
-                            <img class="speaker-image" src="img/ps.png" alt="foto do palestrante">
-                            <figcaption class="speaker-name">Nome completo</figcaption>
-                            <p class="speaker-bio">desenvolvedor de software</p>
+                    <li class="produto">
+                        <figure class="produto-portrait">
+                            <img class="produto-image" src="img/ps.png" alt="foto do produto">
+                            <figcaption class="produto-name">Photoshop</figcaption>
+                            <p class="produto-bio">Edição de imagens bidimensionais</p>
                         </figure>
-                        <p class="speaker-speach"> nome da palestra</p>
+                        <p class="produto-speach"> R$ 399,00</p>
                     </li> 
-                    <li class="speaker">
-                        <figure class="speaker-portrait">
-                            <img class="speaker-image" src="img/illustrator.png" alt="foto do palestrante">
-                            <figcaption class="speaker-name">Nome completo</figcaption>
-                            <p class="speaker-bio">desenvolvedor de software</p>
+                    <li class="produto">
+                        <figure class="produto-portrait">
+                            <img class="produto-image" src="img/illustrator.png" alt="foto do produto">
+                            <figcaption class="produto-name">Illustrator</figcaption>
+                            <p class="produto-bio">Edição de imagens vetoriais</p>
                         </figure>
-                        <p class="speaker-speach"> nome da palestra</p>
-                    </li>              
+                        <p class="produto-speach"> R$ 299,00</p>
+                    </li> 
+                             
                                       
                 </ul>
             </div>
@@ -60,31 +60,42 @@
 
 
     <section id="panel-form" class="panel-form" >
-        <div class="container">
+        <div class="form-dados">
            
-            <h2 class="title">Dados Pessoais</h2>
-
             <form>
-                <div class="field">
+                <legend>Dados Pessoais</legend>
+                <div class="form-group">
                     <label for="nomecompleto">Nome Completo</label>
-                    <input type="text" id="nomecompleto" class="field-input">
+                    <input type="text" id="nomecompleto" class="form-group-input" placeholder="Nome Completo">
                 </div>
-                <div class="field">
+                <div class="form-group">
                     <label for="email">E-mail</label>
-                    <input type="email" id="email" class="field-input">
+                    <input type="email" id="email" class="form-group-input" placeholder="email@dominio.com">
                 </div>
-                <div class="field">
+                <div class="form-group">
                     <label for="telefone">Telefone</label>
-                    <input type="tel" id="telefone" class="field-input">  
+                    <input type="tel" id="telefone" class="form-group-input"placeholder="(XX) XXXXX-XXXX" maxlength="11">
                 </div>
-                
-                                           
+                <br> 
+                <div class="form-group">
+                    <legend>Marque o curso de interesse:</legend>
+                    <label for="aftereffect">After Effects</label>
+                    <input class="radio" type="radio" id="aftereffect" name="curso" value="aftereffect" required>
+                    <label for="photoshop">Photoshop</label>
+                    <input class="radio"type="radio" id="photoshop" name="curso" value="photoshop" required>
+                    <label for="illustrator">Illustrator</label>
+                    <input class="radio"type="radio" id="illustrator" name="curso" value="illustrator" required>
+                    <label for="todos">Todos</label>
+                    <input class="radio"type="radio" id="todos" name="curso" value="todos" required>
+                </div>                     
                 <div class="button-place">
                 <button class="button">ENVIAR</button>
                 </div>
             </form>
         </div>
+       
     </section>
+   
     <script src="js/jquery.js"></script>
     <script src="js/index.js"></script>
 </body>

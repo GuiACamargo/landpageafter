@@ -27,9 +27,10 @@
     color:rgb(255, 255, 255);
     margin: 0;
     position: absolute;
-    top: 18%;
+    top: 20%;
     left: 50%;
-      
+    margin-right: -50%;
+    transform: translate(-50%, -50%);  
 }
 
 .panel-about .about-description{

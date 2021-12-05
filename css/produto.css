@@ -1,14 +1,14 @@
-.panel-speakers{
+.panel-produtos{
     padding-top:40px;
     background-image: url(../img/fractals.jpg);
         
 }
 
-.panel-speakers .about-speakers{
+.panel-produtos .about-produtos{
     text-align:center;
     
 }
-.panel-speakers .about-speakers .title{
+.panel-produtos .about-produtos .title{
     color:#4E4EF2;
     font-size:40px;
     margin-bottom: 16px;
@@ -16,7 +16,7 @@
 }
 
 
-.panel-speakers .about-speakers .subtitle{
+.panel-produtos .about-produtos .subtitle{
     color:#4E4EF2;
     font-size:20px;
     margin-bottom: 16px;
@@ -24,31 +24,31 @@
     
 }
 
-.panel-speakers .speaker{
+.panel-produtos .produtos{
     text-align: center;
-        
+                
 }
-.panel-speakers .speaker{
+.panel-produtos .produto{
     background: #F574E5;
     display:inline-block;
-    margin: 0 16px 32px 0;
+    margin: 0 16px 32px 16px;
     padding:20px;
     border-radius:10px;
     width:220px;
     vertical-align: top;
 }
 
-.panel-speakers .speaker-image{
+.panel-produtos .produto-image{
     border-radius: 50%;
 }
-.panel-speakers .speaker-name{
+.panel-produtos .produto-name{
     margin-top:10px;
 }
-.panel-speakers .speaker-bio{
+.panel-produtos .produto-bio{
     font-weight:bold;
     margin-top:16px;
 }
-.panel-speakers .speaker-speach{
+.panel-produtos .produto-speach{
     margin-top:16px;
     
 }
