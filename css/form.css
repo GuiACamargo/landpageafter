@@ -1,15 +1,16 @@
 .panel-form{
+    display: block;
     margin-top: 0;
     margin: 0;
     position: absolute;
-    top: 130%;
+    top: 270%;
     left: 50%;
     margin-right: -50%;
     transform: translate(-50%, -50%);
 }
 .panel-form .title{
-        font-size: 32px;
-        color:#4b0082;
-        text-align: center;
-        text-transform: uppercase;
+    font-size: 32px;
+    color:#4b0082;
+    text-align: center;
+    text-transform: uppercase;
 }

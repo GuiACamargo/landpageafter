@@ -10,7 +10,7 @@ function ativaScrollSuave(selector){
 }
 
 ativaScrollSuave('a[href*=panel-about]');
-ativaScrollSuave('a[href*=panel-speakers]');
+ativaScrollSuave('a[href*=panel-produtos]');
 ativaScrollSuave('a[href*=panel-form]');
 
 /*serve para animar o effeito da página 

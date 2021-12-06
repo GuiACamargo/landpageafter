@@ -1,6 +1,8 @@
 .panel-produtos{
+    position: relative;
     padding-top:40px;
     background-image: url(../img/fractals.jpg);
+    height: 1200px;
         
 }
 
@@ -9,10 +11,11 @@
     
 }
 .panel-produtos .about-produtos .title{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color:#4E4EF2;
     font-size:40px;
-    margin-bottom: 16px;
-    text-transform:uppercase ;
+    margin-bottom: 40px;
+    text-transform:uppercase;
 }
 
 
@@ -26,10 +29,12 @@
 
 .panel-produtos .produtos{
     text-align: center;
+    position: relative;
                 
 }
 .panel-produtos .produto{
-    background: #F574E5;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background:mediumpurple;
     display:inline-block;
     margin: 0 16px 32px 16px;
     padding:20px;

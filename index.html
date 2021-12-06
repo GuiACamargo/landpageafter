@@ -1,29 +1,68 @@
+<index class="html"></index>
 <!DOCTYPE html>
-<html>
+<html lang="pt-br">
+    
+    <head>
+        <meta charset="utf-8">
+        <title>SE7EN - After Effects</title>
 
-<head>
-    <meta charset="UTF-8">
-    <title>Contato</title>
-    <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/base.css">
-    <link rel="stylesheet" href="css/about.css">
-    <link rel="stylesheet" href="css/produto.css">
-    <link rel="stylesheet" href="css/form.css">
-   
-</head>
-<body>
-       
-    <section id="panel-about" class="panel panel-about">
+        <link rel="stylesheet" href="css/base.css">
+        <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="css/about.css">
+        <link rel="stylesheet" href="css/produto.css">
+        <link rel="stylesheet" href="css/form.css">
+        
+    </head>
+    
+    <body>
+        
+        <header>
+            <link rel="shortcut icon" type="imagex/png" href="logo-SE7EN.ico">
+            <div class="caixa">
+                <h1><img src="img/logo-SE7EN.png" id="logo"></h1>
+                <nav class=>
+                    <ul class="tags">
+                        <li class="itens"><a href="#texto-botao">Home</a></li>
+                        <li class="itens"><a href="#descricao-texto">Informações</a></li>
+                        <li class="itens"><a href="#participantes">Contato</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <main>
+            
+            <div class="container">
+                <ul class="corpo">
+                    <li class="texto-home">
+                        <h2 id="texto-botao">Aqui você encontra seu aperfeiçoamento pessoal e profissional.</h2>
+                        <p class="botao"><a href="#formulario">INSCREVA-SE!!</a></p>
+                    </li>
+                </ul>
+                <img src="img/professor.png" id="professor">
+            </div>
+
+            <div class="container">
+                <p id="descricao-texto">A <strong class="negrito">Escola SE7EN</strong> de After Effects conta com uma educação <strong class="negrito">conhecida mundialmente</strong>, sendo atualizada desde 2016, oferecenendo todos os recursos necessário aos alunos, bem como as últimas tecnologias do mercado. Conta com <strong class="negrito">mentoria e apoio nos estudos</strong>, instruindo de maneira efetiva o estudo dessa nova tecnologia. <br><br><br> Não perca tempo e matricule-se na escola do futuro <strong class="negrito">SE7EN</strong> junto com a ajuda de milhares de profissionais alunos.</p>
+                <img src="img/descricaofoto.png" class="imagem-descricao">
+            </div>
+
+        </main>
+
+        <section id="panel-about" class="panel panel-about">
+            
             <div class="container">
                 <h2 class="title">Conheça nossos cursos</h2>
                 <h3 class="subtitle"> Os melhores cursos você encontra aqui</h3>
             </div>
             
         </section>
+
         <section id="panel-produtos" class="panel panel-produtos">
-            <div class="container">
+           
+            <div class="container1">
                 <div class="about-produtos">
-                    <h2 class="title">CURSOS FERRAMENTAS ADOBE</h2>
+                    <h2 class="title" id="cursos-adobe">CURSOS FERRAMENTAS ADOBE</h2>
                 </div> 
                 
                 <ul class="produtos">
@@ -51,52 +90,101 @@
                             <p class="produto-bio">Edição de imagens vetoriais</p>
                         </figure>
                         <p class="produto-speach"> R$ 299,00</p>
-                    </li> 
-                             
-                                      
+                    </li>                    
                 </ul>
             </div>
-    </section>
+            
+        </section>
 
-
-    <section id="panel-form" class="panel-form" >
-        <div class="form-dados">
+        <section id="panel-form" class="panel-form" >
+            
+            <div class="form-dados">
+               
+                <form>
+                    <legend class="titulo-form" id="formulario">Dados Pessoais</legend>
+                    <div class="form-group">
+                        <label for="nomecompleto">Nome Completo</label>
+                        <input type="text" id="nomecompleto" class="form-group-input" placeholder="Nome Completo" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">E-mail</label>
+                        <input type="email" id="email" class="form-group-input" placeholder="email@dominio.com" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="telefone">Telefone</label>
+                        <input type="tel" id="telefone" class="form-group-input"placeholder="(XX) XXXXX-XXXX" required>
+                    </div>
+                    <br> 
+                        <legend class="titulo-form">Marque o curso de interesse:</legend>
+                    <div class="form-group"></div>
+                        <label for="aftereffect" class="form-group">After Effects</label>
+                        <input class="radio" type="radio" id="aftereffect" name="curso" value="aftereffect" required>
+                        <label for="photoshop" class="form-group">Photoshop</label>
+                        <input class="radio"type="radio" id="photoshop" name="curso" value="photoshop" required>
+                        <label for="illustrator" class="form-group">Illustrator</label>
+                        <input class="radio"type="radio" id="illustrator" name="curso" value="illustrator" required>
+                        <label for="todos" class="form-group">Todos</label>
+                        <input class="radio"type="radio" id="todos" name="curso" value="todos" required>
+                    </div>                     
+                    <div class="button-place">
+                    <button class="button">ENVIAR</button>
+                    </div>
+                </form>
+            </div>
            
-            <form>
-                <legend>Dados Pessoais</legend>
-                <div class="form-group">
-                    <label for="nomecompleto">Nome Completo</label>
-                    <input type="text" id="nomecompleto" class="form-group-input" placeholder="Nome Completo">
-                </div>
-                <div class="form-group">
-                    <label for="email">E-mail</label>
-                    <input type="email" id="email" class="form-group-input" placeholder="email@dominio.com">
-                </div>
-                <div class="form-group">
-                    <label for="telefone">Telefone</label>
-                    <input type="tel" id="telefone" class="form-group-input"placeholder="(XX) XXXXX-XXXX" maxlength="11">
-                </div>
-                <br> 
-                <div class="form-group">
-                    <legend>Marque o curso de interesse:</legend>
-                    <label for="aftereffect">After Effects</label>
-                    <input class="radio" type="radio" id="aftereffect" name="curso" value="aftereffect" required>
-                    <label for="photoshop">Photoshop</label>
-                    <input class="radio"type="radio" id="photoshop" name="curso" value="photoshop" required>
-                    <label for="illustrator">Illustrator</label>
-                    <input class="radio"type="radio" id="illustrator" name="curso" value="illustrator" required>
-                    <label for="todos">Todos</label>
-                    <input class="radio"type="radio" id="todos" name="curso" value="todos" required>
-                </div>                     
-                <div class="button-place">
-                <button class="button">ENVIAR</button>
-                </div>
-            </form>
-        </div>
+        </section>
+
+        <section>
+            
+            <div>
+                <h1 class="participantes" id="participantes">PARTICIPANTES</h1>
+                <img src="img/squad.jpeg" class="participantes-foto">
+            </div>
+
+        </section>
+
+        <section>
+
+            <video width="800" height="450" controls="controls">
+                <source src="y2meta.com - VINHETA CONTAGEM REGRESSIVA 10 Segundos(360p).mp4" type="video/mp4" />
+                O seu navegador não suporta o vídeo!
+            </video>
+
+        </section>
+        
+        <footer class="rodape_final">
+
+            <article class="art_rod">
+                <img src="img/logo-SE7EN.png" class="img_rod">
+            </article>
+            <article class="art_rod">
+                <h2> <br> <strong class="maior"> Ínicio </strong><br><br> 
+                    <strong class="fim"><a href="#texto-botao" class="link">Home</a></strong> <br>
+                    <strong class="fim"><a href="#cursos-adobe" class="link">Cursos</a></strong> <br>
+                    <strong class="fim">Downloads</strong> <br>
+                    </h2>
+            </article>
+            <article class="art_rod">
+                <h2> <br> <strong class="maior"> Sobre-nós </strong><br><br>
+                    <strong class="fim"><a href="#descricao-texto" class="link">Informações da Empresa</a></strong> <br>
+                    <strong class="fim"><a href="#participantes" class="link">Contatos</a></strong> <br>
+                    <strong class="fim">Blog</strong> <br>
+                </h2>
+            </article>
+            <article class="art_rod">
+                <h2> <br> <strong class="maior"> Suporte </strong><br><br>
+                    <strong class="fim">FAQ</strong> <br>
+                    <strong class="fim">Telefones</strong> <br>
+                    <strong class="fim"><a href="https://storyset.com/education" class="link">Education illustrations by Storyset</a></strong> <br>
+            </article>
+            <article class="art_rod">
+                <a href="https://twitter.com/"> <img src="img/Twiter.png" class="img_rod"></a>
+                <a href="https://pt-br.facebook.com/"> <img src="img/Facebook.png" class="img_rod"></a>
+            </article>
+
+        </footer>
+
+        <script src="js/index.js"></script>
        
-    </section>
-   
-    <script src="js/jquery.js"></script>
-    <script src="js/index.js"></script>
-</body>
+    </body>
 </html>
